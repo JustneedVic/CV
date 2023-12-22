@@ -1,0 +1,197 @@
+
+.BlocEXP {
+    color: #c4bebe;
+    display: block;
+    background-color: rgba(68, 107, 189, 0.9);
+    width: 1000px;
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 20px 50px;
+    font-size: 1.1em;
+    text-shadow: 0.3px 0.3px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px black;
+    position: relative;
+    z-index: 2;
+    margin-top: 100px;
+}
+
+.BlocEXP strong {
+    color: #bac9d1
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    font-size: 2em;
+    text-shadow: 2px 2px black;
+}
+
+h3 {
+    font-size: 1.3em;
+    text-shadow: 1px 1px black;
+}
+
+.AlignementTitres {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MegaLogoC {
+    height: 80px;
+    width: 250px;
+}
+
+.MegaLogoP {
+    height: 70px;
+    width: 220px;
+}
+
+.MegaLogoF {
+    height: 80px;
+    width: 220px;
+}
+
+.MegaLogoIRL {
+    height: 90px;
+    width: 220px;
+}
+
+.Decale {
+    margin-top: 30px;
+}
+
+.Tage2 {
+    display: flex;
+    gap: 10px;
+}
+
+.Tage1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Tage {
+    display: flex;
+    gap: 40px;
+}
+
+.LogoT {
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.LesAutres {
+    display: flex;
+    gap: 90px;
+}
+
+.LesAutres2 {
+    margin-top: 50px;
+    display: flex;
+    gap: 179px;
+    margin-bottom: 40px;
+}
+
+.TageA {
+        display: flex;
+        gap: 120px;
+}
+
+.TageB {
+    display: flex;
+    gap: 115px;
+}
+
+.TitreAutres {
+    text-shadow: 0.3px 0.3px;
+}
+
+.BlocEXPS {
+    color: #c4bebe;
+    display: block;
+    background-color: rgba(68, 107, 189, 0.9);
+    width: 1300px;
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 20px 50px;
+    font-size: 1.1em;
+    text-shadow: 0.3px 0.3px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px black;
+    position: relative;
+    z-index: 2;
+    margin-top: 200px;
+}
+
+.BlocEXPS strong {
+    color: #bac9d1
+}
+.BlocEXPS h2 {
+    margin-top: 70px;
+}
+
+.BlocEXPS h3 {
+    margin-top: 50px;
+    font-size: 1.5em;
+    margin-left: 60px;
+}
+
+.BlocEXPS p {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.BlocEXPS h1 {
+    margin-bottom: 60px;
+}
+
+.Intro {
+    font-size: 1.2em;
+}
+
+.ImgVoyage {
+    width: 350px;
+    height: 180px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.DiapoVoyage {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+}
+
+.DiapoVoyageLast {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    margin-bottom: 60px;
+}
+
+.BGVoyage {
+    position: absolute;
+    top: 2350px;
+    z-index: 1;
+    width: 1503px;
+    height: 3852px
+}
+
+.BGAutres {
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    width: 1503px;
+    height: 2340px
+}
