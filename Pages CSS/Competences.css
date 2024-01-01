@@ -1,0 +1,100 @@
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 140px;
+    width: 900px;
+    height: 500px;
+    box-shadow: 10px 10px 25px;
+    background-color: #7198eb;
+}
+
+caption {
+    margin-bottom: 40px;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+td, th {
+    border: 2px solid black;
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+.Green {
+    background-color: #1cb85a;
+}
+
+.Red {
+    background-color: #f53b3b;
+}
+
+.Titre {
+    text-align: center;
+}
+
+.SectionLangues {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 130px;
+    position: relative;
+    z-index: 2;
+    margin-top: 70px;
+    text-shadow: 0.5px 0.5px;
+}
+
+.EN {
+    position: absolute;
+    z-index: 1;
+    top: 1030px;
+    left: 140px;
+    opacity: 0.2;
+    width: 540px;
+    height: 210px;
+    border-radius: 20px;
+    border: solid;
+}
+
+.SP {
+    position: absolute;
+    z-index: 1;
+    top: 1030px;
+    left: 735px;
+    opacity: 0.2;
+    width: 360px;
+    height: 210px;
+    border-radius: 20px;
+    border: solid;
+}
+
+.JP {
+    position: absolute;
+    z-index: 1;
+    top: 1030px;
+    left: 1130px;
+    opacity: 0.2;
+    width: 360px;
+    height: 210px;
+    border-radius: 20px;
+    border: solid;
+}
+
+li {
+    font-weight: 800;
+    font-size: 1.1em;
+}
+
+.VraiSectionLangues {
+    background-color: white;
+    height: 380px;
+}
+
+.TitreLangues {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 2.5em;
+    position: relative;
+    top: 20px;
+}

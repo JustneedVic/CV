@@ -1,0 +1,144 @@
+.TitreSommaire {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    top: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.Sommaire {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    position: relative;
+    z-index: 2;
+    margin-right: 140px;
+    margin-bottom: 100px;
+}
+
+.MiniLogos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+    position: relative;
+    left: 130px;
+    top: 7px;
+}
+
+.MiniL {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.NomsEntreprises{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 3em;
+}
+
+.Periodes{
+    display: flex;
+    flex-direction: column;
+    gap: px;
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.BlocEXP {
+    color: #c4bebe;
+    display: block;
+    background-color: rgba(68, 107, 189, 0.9);
+    width: 1000px;
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 20px 50px;
+    font-size: 1.1em;
+    text-shadow: 0.3px 0.3px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px black;
+    position: relative;
+    z-index: 2;
+}
+
+.BlocEXP strong {
+    color: #bac9d1
+}
+
+.AlignementTitres {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MegaLogoO {
+    height: 70px;
+    width: 160px;
+}
+
+.MegaLogoI {
+    height: 60px;
+    width: 190px;
+}
+
+.MegaLogoMC {
+    height: 120px;
+    width: 190px;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    font-size: 2em;
+    text-shadow: 2px 2px black;
+}
+
+h3 {
+    font-size: 1.3em;
+    text-shadow: 1px 1px black;
+}
+
+.NomsPoste {
+    text-decoration: underline;
+}
+
+.BGSommaire {
+    position: absolute;
+    top: 88px;
+    z-index: 1;
+    width: 1503px;
+    height: 500px;
+}
+
+.BGOnogone {
+    position: absolute;
+    top: 588px;
+    z-index: 1;
+    width: 1503px;
+    height: 970px;
+}
+
+.BGIESEG {
+    position: absolute;
+    top: 1558px;
+    z-index: 1;
+    width: 1503px;
+    height: 990px;
+}
+
+.BGCPGE {
+    position: absolute;
+    top: 2549px;
+    z-index: 1;
+    width: 1503px;
+    height: 808px;
+}
+
