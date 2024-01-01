@@ -112,33 +112,33 @@ h3 {
 
 .BGSommaire {
     position: absolute;
-    top: 88px;
+    top: 80px;
     z-index: 1;
-    width: 1503px;
+    width: 100%;
     height: 500px;
 }
 
 .BGOnogone {
     position: absolute;
-    top: 588px;
+    top: 580px;
     z-index: 1;
-    width: 1503px;
+    width: 100%;
     height: 970px;
 }
 
 .BGIESEG {
     position: absolute;
-    top: 1558px;
+    top: 1550px;
     z-index: 1;
-    width: 1503px;
+    width: 100%;
     height: 990px;
 }
 
 .BGCPGE {
     position: absolute;
-    top: 2549px;
+    top: 2541px;
     z-index: 1;
-    width: 1503px;
+    width: 100%;
     height: 808px;
 }
 

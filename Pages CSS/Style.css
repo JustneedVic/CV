@@ -17,25 +17,32 @@ footer {
 
 body {
     background-color: #5baede;
+    margin: 0px;
 }
 
 nav {
     color: white;
-    width: 1000px;
+    width: 1200px;
     display: flex;
     flex-direction: row;
-    margin-right: 100px;
-    justify-content: space-between;
+    margin-right: 120px;
+    justify-content: right;
     align-items: center;
     font-size: 1.2em;
 }
 
 .lien_nav {
     color: white;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+
 }
 
 .lien_nav:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    background: #0a7091;
 }
 
 .PP {

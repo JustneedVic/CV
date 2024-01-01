@@ -145,7 +145,7 @@ h3 {
 .BGeXalt {
     opacity: 0.4;
     position: absolute;
-    top: 700px;
+    top: 693px;
     z-index: 1;
     width: 100%;
     height: 880px;
@@ -154,7 +154,7 @@ h3 {
 .BGParis {
     opacity: 0.5;
     position: absolute;
-    top: 1790px;
+    top: 1783px;
     z-index: 1;
     width: 100%;
     height: 1050px;
@@ -163,7 +163,7 @@ h3 {
 .BGSaintCyr {
     opacity: 0.5;
     position: absolute;
-    top: 2840px;
+    top: 2833px;
     z-index: 1;
     width: 100%;
     height: 1005px;
@@ -172,7 +172,7 @@ h3 {
 .BGLux {
     opacity: 0.5;
     position: absolute;
-    top: 3845px;
+    top: 3837px;
     z-index: 1;
     width: 100%;
     height: 1028px;
@@ -180,10 +180,10 @@ h3 {
 
 .BGSommaire {
     position: absolute;
-    top: 88px;
+    top: 80px;
     z-index: 1;
     width: 100%;
-    height: 620px;
+    height: 625px;
 }
 
 .BlockSommaire {
