@@ -37,12 +37,15 @@ nav {
     padding-top: 20px;
     padding-left: 35px;
     padding-right: 35px;
-
+    text-decoration: none;
 }
 
 .lien_nav:hover {
-    text-decoration: none;
     background: #0a7091;
+}
+
+.banniere nav a {
+    text-decoration: none;
 }
 
 .PP {
