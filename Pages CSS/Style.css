@@ -12,7 +12,8 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        color: #b9c9c9
+        color: #b9c9c9;
+    
 }
 
 body {
