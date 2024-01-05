@@ -224,6 +224,7 @@ a:hover {
     flex-direction: row;
     width: 500px;
     justify-content: space-around;
+    margin-left: 100px;
 }
 
 .SNS {
@@ -232,7 +233,7 @@ a:hover {
     width: 400px;
     justify-content: space-around;
     position: relative;
-    right: 100px;
+    right: 120px
 }
 
 .TitleFooter {
