@@ -70,6 +70,10 @@
     color: #bac9d1
 }
 
+#Onogone, #IESEG, #MarieCurie {
+    scroll-margin-top: 140px
+}
+
 .AlignementTitres {
     display: flex;
     justify-content: space-between;

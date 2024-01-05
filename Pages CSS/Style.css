@@ -211,7 +211,8 @@ a:hover {
     position: relative;
     z-index: 2;
     text-shadow: 0.3px 0.3px;
-    color: #c4bebe
+    color: #c4bebe;
+    scroll-margin-top: 100px;
 }
 
 .Recrutement a {
