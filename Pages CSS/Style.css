@@ -70,6 +70,7 @@ nav {
     background: #367ceb;
     padding-left: 27px;
     display: none;
+    border: solid 1px
 }
 
 .ElementDeroulant {
@@ -97,8 +98,8 @@ nav {
 
 .MenuDeroulant1:hover {
     position: relative;
-    top: 98.5px;
-    left: 17px;
+    top: 99px;
+    left: 18px;
 }
 
 .MenuDeroulant2:hover .ListeDeroulante {
@@ -107,7 +108,7 @@ nav {
 
 .MenuDeroulant2:hover {
     position: relative;
-    top: 83px;
+    top: 83.5px;
     
 }
 
@@ -117,7 +118,7 @@ nav {
 
 .MenuDeroulant3:hover {
     position: relative;
-    top: 67px;
+    top: 67.5px;
     
 }
 
@@ -127,7 +128,7 @@ nav {
 
 .MenuDeroulant4:hover {
     position: relative;
-    top: 51px;
+    top: 52px;
     
 }
 
@@ -137,7 +138,7 @@ nav {
 
 .MenuDeroulant5:hover {
     position: relative;
-    top: 83px;
+    top: 83.5px;
     
 }
 
