@@ -29,6 +29,11 @@ h3 {
     position: relative;
     z-index: 2;
     margin-top: 100px;
+    transition: box-shadow 500ms
+}
+
+.BlocEXP:hover {
+    box-shadow: 20px 20px 50px black;
 }
 
 .BlocEXP strong {
@@ -44,21 +49,37 @@ h3 {
 .MegaLogoC {
     height: 80px;
     width: 250px;
+    transition: background-color 150ms;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .MegaLogoP {
     height: 70px;
     width: 220px;
+    transition: background-color 150ms;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .MegaLogoF {
     height: 80px;
     width: 220px;
+    transition: background-color 150ms;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .MegaLogoIRL {
     height: 90px;
     width: 220px;
+    transition: background-color 150ms;
+    border-radius: 10px;
+    margin-right: 5px
+}
+
+.MegaLogoC:hover, .MegaLogoP:hover, .MegaLogoF:hover, .MegaLogoIRL:hover {
+    background: #0a7091;
 }
 
 .Decale {
@@ -185,7 +206,7 @@ h3 {
     top: 2340px;
     z-index: 1;
     width: 100%;
-    height: 3893px
+    height: 3898px
 }
 
 .BGAutres {
@@ -193,7 +214,7 @@ h3 {
     z-index: 1;
     top: 10px;
     width: 100%;
-    height: 2330px
+    height: 2340px
 }
 
 #ProfesseurParticulier, #EXPAssociative, #AutresID, #Voyage {

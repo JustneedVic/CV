@@ -75,6 +75,11 @@ h3 {
     text-shadow: 0.3px 0.3px;
     border-radius: 10px;
     box-shadow: 10px 10px 25px black;
+    transition: box-shadow 500ms
+}
+
+.BlocEXP:hover {
+    box-shadow: 20px 20px 50px black;
 }
 
 .BlocEXP strong {
@@ -94,21 +99,36 @@ h3 {
 .MegaLogoX {
     height: 50px;
     width: 150px;
+    transition: background-color 150ms;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .MegaLogoF {
     height: 100px;
     width: 150px;
+    transition: background-color 150ms;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .MegaLogoJ {
     height: 60px;
     width: 200px;
+    transition: background-color 150ms;
+    border-radius: 10px;
 }
 
 .MegaLogoH {
     height: 40px;
     width: 200px;
+    transition: background-color 150ms;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.MegaLogoX:hover, .MegaLogoF:hover, .MegaLogoJ:hover, .MegaLogoH:hover {
+    background: #0a7091;
 }
 
 .InterludePro {
@@ -120,18 +140,19 @@ h3 {
 }
 
 .Interlude {
-    background: linear-gradient(180deg, #3b72a8,#5f16de);
+    background: #4230ab;
     border-radius: 40px;
     border: solid;
     border-color: black;
     color: #cec5de;
     padding: 20px 50px;
     font-size: 1.5em;
-    transition: transform 200ms;
+    transition: transform 200ms, background-color 200ms;
 }
 
 .Interlude:hover {
-    transform: scale(1.10)
+    transform: scale(1.10);
+    background: rgba(66, 48, 171, 0.5);
 }
 
 .Interlude:hover {

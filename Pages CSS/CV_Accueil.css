@@ -37,6 +37,10 @@ h3 {
     bottom: 65px;
 }
 
+.AnchorAccueil {
+    transition: opacity 100ms
+}
+
 .AnchorAccueil:hover {
     opacity: 0.5;
     color: black;
@@ -60,6 +64,11 @@ h3 {
     margin-left: 100px;
     margin-right: 100px;
     box-shadow: 10px 10px 15px black;
+    transition: box-shadow 500ms
+}
+
+.Section:hover {
+    box-shadow: 20px 20px 30px black
 }
 
 .Section Strong {
@@ -104,19 +113,19 @@ h3 {
 }
 
 .contacter {
-    background: linear-gradient(180deg, #3b72a8,#5f16de);
+    background: #4230ab;
     border-radius: 40px;
     border: solid;
     border-color: black;
     color: #cec5de;
     padding: 20px 50px;
     font-size: 2em;
-    transition: transform 200ms;
+    transition: transform 200ms, background-color 200ms;
 }
 
 .contacter:hover {
     transform: scale(1.20);
-    background: linear-gradient(180deg, rgba(59, 114, 168, 0.5), rgba(95, 22, 222, 0.5));
+    background:  rgba(66, 48, 171, 0.5);
 }
 
 .BoutonContact:hover {
@@ -165,6 +174,11 @@ h3 {
     text-shadow: 0.3px 0.3px;
     color: #c4bebe;
     scroll-margin-top: 100px;
+    transition: box-shadow 300ms
+}
+
+.Recrutement:hover, .RelCommerciales:hover, .RessourcesHumaines:hover {
+    box-shadow: 20px 20px 30px black
 }
 
 .Recrutement a {

@@ -79,6 +79,11 @@ h3 {
     box-shadow: 10px 10px 25px black;
     position: relative;
     z-index: 2;
+    transition: box-shadow 500ms
+}
+
+.BlocEXP:hover {
+    box-shadow: 20px 20px 50px black;
 }
 
 .BlocEXP strong {
@@ -98,16 +103,29 @@ h3 {
 .MegaLogoO {
     height: 70px;
     width: 160px;
+    transition: background-color 150ms;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .MegaLogoI {
     height: 60px;
     width: 190px;
+    transition: background-color 150ms;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .MegaLogoMC {
     height: 120px;
     width: 190px;
+    transition: background-color 150ms;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.MegaLogoO:hover, .MegaLogoI:hover, .MegaLogoMC:hover {
+    background: #0a7091;
 }
 
 .NomsPoste {
@@ -140,9 +158,9 @@ h3 {
 
 .BGCPGE {
     position: absolute;
-    top: 2541px;
+    top: 2540px;
     z-index: 1;
     width: 100%;
-    height: 808px;
+    height: 823px;
 }
 

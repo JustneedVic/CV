@@ -23,10 +23,20 @@ td, th {
 
 .Green {
     background-color: #1cb85a;
+    transition: background-color 200ms;
+}
+
+.Green:hover {
+    background: rgba(28, 184, 90, 0.7)
 }
 
 .Red {
     background-color: #f53b3b;
+    transition: background-color 200ms;
+}
+
+.Red:hover {
+    background: rgba(245, 59, 59, 0.7)
 }
 
 .Titre {
@@ -55,6 +65,7 @@ td, th {
     height: 210px;
     border-radius: 20px;
     border: solid;
+    transition: opacity 500ms;
 }
 
 .SP {
@@ -67,6 +78,7 @@ td, th {
     height: 210px;
     border-radius: 20px;
     border: solid;
+    transition: opacity 500ms;
 }
 
 .JP {
@@ -79,6 +91,12 @@ td, th {
     height: 210px;
     border-radius: 20px;
     border: solid;
+    transition: opacity 200ms, box-shadow 200ms;
+}
+
+.EN:hover, .SP:hover, .JP:hover {
+    opacity: 0.4;
+    box-shadow: 10px 10px 25px black;
 }
 
 .ListeSpeciale {
