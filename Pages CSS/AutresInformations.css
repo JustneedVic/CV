@@ -1,3 +1,17 @@
+h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    font-size: 2em;
+    text-shadow: 2px 2px black;
+}
+
+h3 {
+    font-size: 1.3em;
+    text-shadow: 1px 1px black;
+}
 
 .BlocEXP {
     color: #c4bebe;
@@ -19,21 +33,6 @@
 
 .BlocEXP strong {
     color: #bac9d1
-}
-
-h1 {
-    font-size: 3em;
-    text-shadow: 2px 2px black;
-}
-
-h2 {
-    font-size: 2em;
-    text-shadow: 2px 2px black;
-}
-
-h3 {
-    font-size: 1.3em;
-    text-shadow: 1px 1px black;
 }
 
 .AlignementTitres {
@@ -66,9 +65,9 @@ h3 {
     margin-top: 30px;
 }
 
-.Tage2 {
+.Tage {
     display: flex;
-    gap: 10px;
+    gap: 40px;
 }
 
 .Tage1 {
@@ -77,9 +76,9 @@ h3 {
     align-items: center;
 }
 
-.Tage {
+.Tage2 {
     display: flex;
-    gap: 40px;
+    gap: 10px;
 }
 
 .LogoT {
@@ -163,6 +162,11 @@ h3 {
     height: 180px;
     border-radius: 10px;
     box-shadow: 5px 5px 15px black;
+    transition: transform 250ms
+}
+
+.ImgVoyage:hover {
+    transform: scale(1.2)
 }
 
 .DiapoVoyage {
@@ -173,10 +177,6 @@ h3 {
 }
 
 .DiapoVoyageLast {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    gap: 65px;
     margin-bottom: 60px;
 }
 
@@ -196,6 +196,7 @@ h3 {
     height: 2330px
 }
 
-#Voyage {
+#ProfesseurParticulier, #EXPAssociative, #AutresID, #Voyage {
     scroll-margin-top: 120px;
 }
+

@@ -39,6 +39,7 @@ nav {
     padding-left: 35px;
     padding-right: 35px;
     text-decoration: none;
+    transition: background-color 200ms
 }
 
 .lien_nav:hover {
@@ -62,6 +63,84 @@ nav {
     justify-content: space-between;
 }
 
+.ListeDeroulante {
+    position: relative;
+    bottom: 9px;
+    line-height: 30px;
+    background: #367ceb;
+    padding-left: 27px;
+    display: none;
+}
+
+.ElementDeroulant {
+    border: solid 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+    transition: background-color 200ms;
+}
+
+.ElementDeroulant:hover {
+    background: #0a7091;
+}
+
+.LienDeroulant {
+    color: white;
+}
+
+.LienDeroulant:hover {
+    color: white
+}
+
+.MenuDeroulant1:hover .ListeDeroulante {
+    display: block;
+}
+
+.MenuDeroulant1:hover {
+    position: relative;
+    top: 98.5px;
+    left: 17px;
+}
+
+.MenuDeroulant2:hover .ListeDeroulante {
+    display: block;
+}
+
+.MenuDeroulant2:hover {
+    position: relative;
+    top: 83px;
+    
+}
+
+.MenuDeroulant3:hover .ListeDeroulante {
+    display: block;
+}
+
+.MenuDeroulant3:hover {
+    position: relative;
+    top: 67px;
+    
+}
+
+.MenuDeroulant4:hover .ListeDeroulante {
+    display: block;
+}
+
+.MenuDeroulant4:hover {
+    position: relative;
+    top: 51px;
+    
+}
+
+.MenuDeroulant5:hover .ListeDeroulante {
+    display: block;
+}
+
+.MenuDeroulant5:hover {
+    position: relative;
+    top: 83px;
+    
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -72,166 +151,19 @@ a:hover {
     color: #29248a;
 }
 
-.specialite {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 100px;
-    font-size: 3em;
-    margin-top: 300px;
-    margin-bottom: 200px;
-}
-
-.AnchorAccueil:hover {
-    opacity: 0.5;
-    color: black;
-    text-decoration: none;
-}
-
-.paragraphe_introduction {
-    display: block;
-    width: 500px;
-    padding: 20px;
-    font-size: 1.2em;
-    text-align: justify;
-}
-
-.ImagesDroite {
-    border-radius: 20px;
-    width: 600px;
-    height: 300px;
-    margin-right: 30px;
-}
-
-.Section1 {
-    color: #edf6fa;
+.Categorie {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    background-color:rgba(68, 107, 189, 0.9);
-    border-radius: 20px;
-    border: solid;
-    border-color: black;
-    margin-left: 100px;
-    margin-right: 100px;
-    box-shadow: 10px 10px 15px black;
-}
-
-.Section1 Strong {
-    color: white;
-}
-
-.Section2 {
-    color: #edf6fa;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color:rgba(68, 107, 189, 0.9);
-    border-radius: 20px;
-    border: solid;
-    border-color: black;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 50px;
-    box-shadow: 10px 10px 15px black;
-}
-
-.paragraphe_experience {
-    font-size: 1.2em;
-    padding: 20px;
-    text-align: justify;
-    width: 500px;
-    margin-right: 40px;
-}
-
-.ImagesGauche {
-    border-radius: 20px;
-    width: 600px;
-    height: 300px;
-    margin-left: 15px;
-}
-
-.me_contacter {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 200px;
-}
-
-.contacter {
-    background: linear-gradient(180deg, #3b72a8,#5f16de);
-    border-radius: 40px;
-    border: solid;
-    border-color: black;
-    color: #cec5de;
-    padding: 20px 50px;
-    font-size: 2em;
-}
-
-.contacter:hover {
-    background: linear-gradient(180deg, rgba(59, 114, 168, 0.5), rgba(95, 22, 222, 0.5));
-}
-
-.Background_Titre {
-    background-image: url(../Images/BackgroundTitre.PNG);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 640px;
-    position: relative;
-    bottom: 65px;
-}
-
-.Relationnel {
-    color: #0a0a0a;
-    width: 1100px;
-    text-align: justify;
-    margin: auto;
-    font-size: 1.2em;
-    margin-top: 100px;
-    margin-bottom: 150px;
-    position: relative;
-    z-index: 2;
-    text-shadow: 0.3px 0.3px;
-}
-
-.Recrutement, .RelCommerciales, .RessourcesHumaines {
-    display: block;
-    background-color: rgba(12, 64, 148, 0.9);
-    width: 800px;
-    text-align: justify;
-    margin: auto;
-    font-size: 1.1em;
-    margin-bottom: 100px;
-    padding: 20px 50px;
-    border-radius: 10px;
-    position: relative;
-    z-index: 2;
-    text-shadow: 0.3px 0.3px;
-    color: #c4bebe;
-    scroll-margin-top: 100px;
-}
-
-.Recrutement a {
-    color: #e3dcdc
 }
 
 .Contacts {
-    display: flex;
-    flex-direction: row;
     width: 500px;
-    justify-content: space-around;
     margin-left: 100px;
 }
 
-.SNS {
-    display: flex;
-    flex-direction: row;
+.SNS {   
     width: 400px;
-    justify-content: space-around;
     position: relative;
     right: 120px
 }
@@ -254,7 +186,7 @@ a:hover {
 }
 
 .BlockFooter {
-    position: relative;
+    margin-top: 4px
 }
 
 footer a {

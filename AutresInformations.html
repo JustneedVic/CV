@@ -10,16 +10,59 @@
 
 <body>
 
-<header class="banniere">
-    <a href="index.html"><img class="PP" src="Images/MoiPro.jpeg" title="Prise chez Hays Luxembourg en 2022 !" alt="Photo de profil professionelle"></a>
-    <nav>
+  <header class="banniere">
+    <img class="PP" src="Images/MoiPro.jpeg" title="Prise chez Hays Luxembourg en 2022 !" alt="Photo de profil professionelle">
+  <nav>
 
-      <a href="index.html"><div class="lien_nav">VICTOR SALLÉ</div></a>
+    <div class="MenuDeroulant1">
+    <a href="index.html"><div class="lien_nav">VICTOR SALLÉ</div></a>
+      <ul class="ListeDeroulante">
+        <a href="index.html#Presentation" class="LienDeroulant"><li class="ElementDeroulant">Présentation</li></a>
+        <a href="index.html#Relationnel" class="LienDeroulant"><li class="ElementDeroulant">Relationnel</li></a>
+        <a href="index.html#Recrutement" class="LienDeroulant"><li class="ElementDeroulant">Recrutement</li></a>
+        <a href="index.html#RelCommerciales" class="LienDeroulant"><li class="ElementDeroulant">Relations commerciales</li></a>
+        <a href="index.html#RessourcesHumaines" class="LienDeroulant"><li class="ElementDeroulant">Ressources humaines</li></a>
+      </ul>
+    </div>
+
+    <div class="MenuDeroulant2">
       <a href="ExperiencesProfessionelles.html"><div class="lien_nav">Expériences Professionelles</div></a>
-      <a href="ParcoursAcademique.html"><div class="lien_nav">Parcours Académique</div></a>
-      <a href="Competences.html"><div class="lien_nav">Compétences</div></a>
+        <ul class="ListeDeroulante">
+          <a href="ExperiencesProfessionelles.html#eXalt" class="LienDeroulant"><li class="ElementDeroulant">eXalt</li></a>
+          <a href="ExperiencesProfessionelles.html#Finegan" class="LienDeroulant"><li class="ElementDeroulant">Finegan</li></a>
+          <a href="ExperiencesProfessionelles.html#JobGlober" class="LienDeroulant"><li class="ElementDeroulant">JobGlober</li></a>
+          <a href="ExperiencesProfessionelles.html#HAYS" class="LienDeroulant"><li class="ElementDeroulant">HAYS</li></a>
+        </ul>
+      </div>
+
+      <div class="MenuDeroulant3">  
+        <a href="ParcoursAcademique.html"><div class="lien_nav">Parcours Académique</div></a>
+          <ul class="ListeDeroulante">
+            <a href="ParcoursAcademique.html#Onogone" class="LienDeroulant"><li class="ElementDeroulant">Onogone (Stage)</li></a>
+            <a href="ParcoursAcademique.html#IESEG" class="LienDeroulant"><li class="ElementDeroulant">IESEG</li></a>
+            <a href="ParcoursAcademique.html#MarieCurie" class="LienDeroulant"><li class="ElementDeroulant">Classe Préparatoire</li></a>
+          </ul>
+        </div>
+
+        <div class="MenuDeroulant4">
+          <a href="Competences.html"><div class="lien_nav">Compétences</div></a>
+            <ul class="ListeDeroulante">
+              <a href="Competences.html#Bilan" class="LienDeroulant"><li class="ElementDeroulant">Tableau</li></a>
+              <a href="Competences.html#Langues" class="LienDeroulant"><li class="ElementDeroulant">Langues</li></a>
+            </ul>
+        </div>
+
+    <div class="MenuDeroulant5">
       <a href="AutresInformations.html"><div class="lien_nav">Autres Informations</div></a>
-    </nav>
+        <ul class="ListeDeroulante">
+          <a href="#ProfesseurParticulier" class="LienDeroulant"><li class="ElementDeroulant">Professeur Particulier</li></a>
+          <a href="#EXPAssociative" class="LienDeroulant"><li class="ElementDeroulant">EXP Associatives</li></a>
+          <a href="#AutresID" class="LienDeroulant"><li class="ElementDeroulant">Autres</li></a>
+          <a href="#Voyage" class="LienDeroulant"><li class="ElementDeroulant">Voyage 2023</li></a>
+        </ul>
+      </div>
+
+  </nav>
 </header>
 
 
@@ -30,7 +73,7 @@
 <img src="Images/BackgroundVoyage.jpg" class="BGVoyage">
 <img src="Images/BackgroundAutres.jpg" class="BGAutres">
 
-<section class="BlocEXP">
+<section class="BlocEXP" id="ProfesseurParticulier">
     <div class="AlignementTitres">
       <h1>Professeur Particulier</h1>
         <a href="https://www.completude.com/" target="_blank"><img src="Images/TitreCompletude.png" class="MegaLogoC"></a>
@@ -44,7 +87,7 @@
     </p>
 </section>
 
-<section class="BlocEXP">
+<section class="BlocEXP" id="EXPAssociative">
     <h1>Expériences Associatives</h1>
     <div class="AlignementTitres">
       <h2>Association Franco-Japonaise - Paris VII</h2>
@@ -80,7 +123,7 @@
 
 </section>
 
-<section class="BlocEXP">
+<section class="BlocEXP" id="AutresID">
   <h1>Autres</h1>
 
   <div class="LesAutres">
@@ -147,9 +190,9 @@
   Avant de partir en Asie, un court séjour à Londres et son centre-ville. 
 
   <div class="DiapoVoyage">
-    <a href="Images/Londres1.jpg"><img src="Images/Londres1.jpg" class="ImgVoyage" title="Wenstminster et Big Ben, passage obligatoire !"></a>
-    <a href="Images/Londres2.jpg"><img src="Images/Londres2.jpg" class="ImgVoyage" title="Canary Wharf, le La Défense de Londres en plus grandiose."></a>
-    <a href="Images/Londres3.jpg"><img src="Images/Londres3.jpg" class="ImgVoyage" title="Parc de Greenwich. On peur apercevoir la O2 Arean en haut à droite !"></a>
+    <a href="Images/Londres1.jpg"><img src="Images/Londres1.jpg" class="ImgVoyage ImgVoyage" title="Wenstminster et Big Ben, passage obligatoire !"></a>
+    <a href="Images/Londres2.jpg"><img src="Images/Londres2.jpg" class="ImgVoyage ImgVoyage" title="Canary Wharf, le La Défense de Londres en plus grandiose."></a>
+    <a href="Images/Londres3.jpg"><img src="Images/Londres3.jpg" class="ImgVoyage ImgVoyage" title="Parc de Greenwich. On peur apercevoir la O2 Arean en haut à droite !"></a>
   </div>
 </p>
 
@@ -212,7 +255,7 @@
 <br>
 <h3>Kyoto</h3>
 <p>L'une des villes les plus touristiques du Japon, plus traditionnelle que Tokyo et entourée de lieux mémorables.</p>
-<div class="DiapoVoyageLast">
+<div class="DiapoVoyage DiapoVoyageLast">
   <a href="Images/Kyoto1.jpg"><img src="Images/Kyoto1.jpg" class="ImgVoyage" title="Vue sur le quartier des Geishas."></a>
   <a href="Images/Kyoto2.jpg"><img src="Images/Kyoto2.jpg" class="ImgVoyage" title="Parc de Nara, avec ses centaines de cerfs en liberté."></a>
   <a href="Images/Kyoto3.jpg"><img src="Images/Kyoto3.jpg" class="ImgVoyage" title="Fushimi Inari, point de départ d'une grande randonnée avec 10000 portails."></a>
@@ -227,7 +270,7 @@
 
 <footer id="footer">
 
-    <section class="Contacts">
+    <section class="Categorie Contacts">
     <p class="TitleFooter"><strong>Contacts :</strong></p>
     
     <div class="BlockFooter">
@@ -251,7 +294,7 @@
     </div>
     </section>
     
-    <section class="SNS">
+    <section class="Categorie SNS">
       <p class="TitleFooter"><strong>Réseaux Sociaux :</strong></p>
       
       <div class="BlockFooter">
