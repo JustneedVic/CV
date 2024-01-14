@@ -60,32 +60,6 @@ h3 {
     margin-top: 40px;
 }
 
-.BlocEXP {
-    color: #c4bebe;
-    display: block;
-    background-color: rgba(68, 107, 189, 0.9);
-    width: 1000px;
-    text-align: justify;
-    margin: auto;
-    margin-bottom: 100px;
-    padding: 20px 50px;
-    font-size: 1.1em;
-    position: relative;
-    z-index: 2;
-    text-shadow: 0.3px 0.3px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 25px black;
-    transition: box-shadow 500ms
-}
-
-.BlocEXP:hover {
-    box-shadow: 20px 20px 50px black;
-}
-
-.BlocEXP strong {
-    color: #bac9d1
-}
-
 #eXalt, #Finegan, #JobGlober, #HAYS {
     scroll-margin-top: 140px
 }
