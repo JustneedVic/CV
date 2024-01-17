@@ -7,12 +7,12 @@ header {
 }
 
 footer {
-        background-color: #367ceb;
-        height: 160px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        color: #b9c9c9;
+    background-color: #367ceb;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #b9c9c9;
     
 }
 
@@ -28,14 +28,20 @@ nav {
     flex-direction: row;
     margin-right: 120px;
     justify-content: right;
-    align-items: center;
+    align-items: flex-start;
     font-size: 1.2em;
+}
+
+#Victor {
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .lien_nav {
     color: white;
-    height: 40px;
-    padding-top: 20px;
+    margin-top: 11px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     padding-left: 35px;
     padding-right: 35px;
     text-decoration: none;
@@ -64,13 +70,14 @@ nav {
 }
 
 .ListeDeroulante {
-    position: relative;
-    bottom: 9px;
+    margin-top: 11px;
     line-height: 30px;
     background: #367ceb;
     padding-left: 27px;
-    display: none;
-    border: solid 1px
+    border: solid 1px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease-out;
 }
 
 .ElementDeroulant {
@@ -92,54 +99,8 @@ nav {
     color: white
 }
 
-.MenuDeroulant1:hover .ListeDeroulante {
-    display: block;
-}
-
-.MenuDeroulant1:hover {
-    position: relative;
-    top: 99px;
-    left: 18.5px;
-}
-
-.MenuDeroulant2:hover .ListeDeroulante {
-    display: block;
-}
-
-.MenuDeroulant2:hover {
-    position: relative;
-    top: 83.5px;
-    
-}
-
-.MenuDeroulant3:hover .ListeDeroulante {
-    display: block;
-}
-
-.MenuDeroulant3:hover {
-    position: relative;
-    top: 67.5px;
-    
-}
-
-.MenuDeroulant4:hover .ListeDeroulante {
-    display: block;
-}
-
-.MenuDeroulant4:hover {
-    position: relative;
-    top: 52px;
-    
-}
-
-.MenuDeroulant5:hover .ListeDeroulante {
-    display: block;
-}
-
-.MenuDeroulant5:hover {
-    position: relative;
-    top: 83.5px;
-    
+:is(.MenuDeroulant1, .MenuDeroulant2, .MenuDeroulant3, .MenuDeroulant4, .MenuDeroulant5):hover .ListeDeroulante {
+    max-height: 300px;
 }
 
 a {
