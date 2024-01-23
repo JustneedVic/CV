@@ -74,28 +74,25 @@ h3 {
     align-items: center;
 }
 
-.MegaLogoO {
-    height: 70px;
-    width: 160px;
+.MegaLogo {
     transition: background-color 150ms;
     border-radius: 10px;
     padding: 10px;
+}
+
+.MegaLogoO {
+    height: 70px;
+    width: 160px;
 }
 
 .MegaLogoI {
     height: 60px;
     width: 190px;
-    transition: background-color 150ms;
-    border-radius: 10px;
-    padding: 10px;
 }
 
 .MegaLogoMC {
     height: 120px;
     width: 190px;
-    transition: background-color 150ms;
-    border-radius: 10px;
-    padding: 10px;
 }
 
 .MegaLogoO:hover, .MegaLogoI:hover, .MegaLogoMC:hover {
@@ -106,35 +103,33 @@ h3 {
     text-decoration: underline;
 }
 
-.BGSommaire {
+.BG {
+    opacity: 0.7;
     position: absolute;
-    top: 80px;
     z-index: 1;
     width: 100%;
+}
+
+.BGSommaire {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 80px;
     height: 500px;
 }
 
 .BGOnogone {
-    position: absolute;
     top: 580px;
-    z-index: 1;
-    width: 100%;
     height: 970px;
 }
 
 .BGIESEG {
-    position: absolute;
     top: 1550px;
-    z-index: 1;
-    width: 100%;
     height: 990px;
 }
 
 .BGCPGE {
-    position: absolute;
     top: 2540px;
-    z-index: 1;
-    width: 100%;
-    height: 823px;
+    height: 821.5px;
 }
 

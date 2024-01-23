@@ -13,41 +13,39 @@ h3 {
     text-shadow: 1px 1px black;
 }
 
+.MarginEXP {
+    margin-top: 100px
+}
+
 .AlignementTitres {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.MegaLogoC {
-    height: 80px;
-    width: 250px;
+.MegaLogo {
     transition: background-color 150ms;
     border-radius: 10px;
     padding: 10px;
+    width: 220px;
+}
+
+.MegaLogoC {
+    height: 80px;
+    width: 250px;
 }
 
 .MegaLogoP {
     height: 70px;
-    width: 220px;
-    transition: background-color 150ms;
-    border-radius: 10px;
-    padding: 10px;
 }
 
 .MegaLogoF {
     height: 80px;
-    width: 220px;
-    transition: background-color 150ms;
-    border-radius: 10px;
-    padding: 10px;
 }
 
 .MegaLogoIRL {
     height: 90px;
-    width: 220px;
-    transition: background-color 150ms;
-    border-radius: 10px;
+    padding: 0px;
     margin-right: 5px
 }
 
@@ -174,19 +172,21 @@ h3 {
     margin-bottom: 60px;
 }
 
+.BG {
+    opacity: 0.8;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
 .BGVoyage {
     position: absolute;
     top: 2340px;
-    z-index: 1;
-    width: 100%;
     height: 3898px
 }
 
 .BGAutres {
-    position: absolute;
-    z-index: 1;
     top: 10px;
-    width: 100%;
     height: 2340px
 }
 
