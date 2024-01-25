@@ -76,9 +76,9 @@ nav {
     padding-left: 27px;
     border-left: solid 1px;
     border-right: solid 1px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.25s ease-out;
+    transform: scaleY(0);
+    transition: transform 150ms;
+    transform-origin: 50% 0%;
 }
 
 .ElementDeroulant {
@@ -101,10 +101,9 @@ nav {
 }
 
 :is(.MenuDeroulant1, .MenuDeroulant2, .MenuDeroulant3, .MenuDeroulant4, .MenuDeroulant5):hover .ListeDeroulante {
-    max-height: 300px;
     border-top: solid 1px;
     border-bottom: solid 1px;
-    margin-top: 11.5px;
+    transform: ScaleY(1)
 }
 
 a {
