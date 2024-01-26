@@ -7,6 +7,11 @@ table {
     height: 500px;
     box-shadow: 10px 10px 25px;
     background-color: #7198eb;
+    transition: box-shadow 200ms
+}
+
+table:hover {
+    box-shadow: 20px 20px 50px;
 }
 
 caption {
