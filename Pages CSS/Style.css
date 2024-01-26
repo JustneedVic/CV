@@ -70,15 +70,16 @@ nav {
 }
 
 .ListeDeroulante {
+    display: block;
     margin-top: 12.5px;
     line-height: 30px;
     background: #367ceb;
     padding-left: 27px;
     border-left: solid 1px;
     border-right: solid 1px;
-    transform: scaleY(0);
-    transition: transform 150ms;
-    transform-origin: 50% 0%;
+    max-height: 0;
+    transition: max-height 250ms ease-out;
+    overflow: hidden
 }
 
 .ElementDeroulant {
@@ -100,10 +101,12 @@ nav {
     color: white
 }
 
-:is(.MenuDeroulant1, .MenuDeroulant2, .MenuDeroulant3, .MenuDeroulant4, .MenuDeroulant5):hover + .ListeDeroulante {
+:is(.MenuDeroulant1, .MenuDeroulant2, .MenuDeroulant3, .MenuDeroulant4, .MenuDeroulant5):hover .ListeDeroulante {
+    margin-top: 11.5px;
     border-top: solid 1px;
     border-bottom: solid 1px;
-    transform: ScaleY(1)
+    max-height: 300px;
+    
 }
 
 a {
