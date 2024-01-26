@@ -78,7 +78,7 @@ nav {
     border-left: solid 1px;
     border-right: solid 1px;
     max-height: 0;
-    transition: max-height 250ms ease-out;
+    transition: max-height 200ms ease-in;
     overflow: hidden
 }
 
@@ -86,7 +86,7 @@ nav {
     border: solid 1px;
     padding-right: 5px;
     padding-left: 5px;
-    transition: background-color 200ms;
+    transition: background-color 300ms;
 }
 
 .ElementDeroulant:hover {
@@ -101,12 +101,16 @@ nav {
     color: white
 }
 
+:is(.MenuDeroulant1, .MenuDeroulant2, .MenuDeroulant3, .MenuDeroulant4, .MenuDeroulant5) {
+    height: 80px
+}
+
 :is(.MenuDeroulant1, .MenuDeroulant2, .MenuDeroulant3, .MenuDeroulant4, .MenuDeroulant5):hover .ListeDeroulante {
     margin-top: 11.5px;
     border-top: solid 1px;
     border-bottom: solid 1px;
     max-height: 300px;
-    
+    transition: max-height 200ms ease-in;
 }
 
 a {
