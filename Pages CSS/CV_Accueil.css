@@ -57,7 +57,7 @@ h3 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color:rgba(68, 107, 189, 0.9);
+    background: radial-gradient(circle, rgba(68, 107, 189, 0.9) 0%, rgba(69, 88, 134, 0.9) 100%);
     border-radius: 20px;
     border: solid;
     border-color: black;
@@ -125,7 +125,7 @@ h3 {
 
 .contacter:hover {
     transform: scale(1.20);
-    background:  rgba(66, 48, 171, 0.5);
+    background:  rgba(66, 48, 171, 0.8);
 }
 
 .BoutonContact:hover {
@@ -161,7 +161,7 @@ h3 {
 
 .Recrutement, .RelCommerciales, .RessourcesHumaines {
     display: block;
-    background-color: rgba(12, 64, 148, 0.9);
+    background: radial-gradient(circle, rgba(25, 54, 101, 0.9) 0%, rgba(15, 50, 132, 0.9) 100%);
     width: 800px;
     text-align: justify;
     margin: auto;

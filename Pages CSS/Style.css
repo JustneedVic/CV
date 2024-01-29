@@ -126,7 +126,7 @@ a:hover {
 .BlocEXP {
     color: #c4bebe;
     display: block;
-    background-color: rgba(68, 107, 189, 0.9);
+    background: radial-gradient(circle, rgba(58, 98, 186, 0.9) 0%, rgba(33, 67, 139, 0.9) 100%);
     width: 1000px;
     text-align: justify;
     margin: auto;

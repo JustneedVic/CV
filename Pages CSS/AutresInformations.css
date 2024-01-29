@@ -105,6 +105,11 @@ h3 {
     text-shadow: 0.3px 0.3px;
 }
 
+.TitreVoyage {
+    margin-left: 150px;
+    text-shadow: black 10px 10px 25px;
+}
+
 .BlocEXPS {
     color: #c4bebe;
     display: block;
