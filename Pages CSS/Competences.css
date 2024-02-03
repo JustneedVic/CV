@@ -26,21 +26,21 @@ td, th {
     font-size: 1.2em;
 }
 
-.Green {
+.GreenT {
     background-color: #1cb85a;
     transition: background-color 200ms;
 }
 
-.Green:hover {
+.GreenT:hover {
     background: rgba(28, 184, 90, 0.7)
 }
 
-.Red {
+.RedT {
     background-color: #f53b3b;
     transition: background-color 200ms;
 }
 
-.Red:hover {
+.RedT:hover {
     background: rgba(245, 59, 59, 0.7)
 }
 
