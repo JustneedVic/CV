@@ -1,4 +1,5 @@
 header {
+    width: 100%;
     background-color: #367ceb;
     height: 80px;
     position: sticky;
@@ -7,6 +8,7 @@ header {
 }
 
 footer {
+    width: 100%;
     background-color: #367ceb;
     height: 160px;
     display: flex;
