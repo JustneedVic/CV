@@ -121,7 +121,7 @@ h3 {
 }
 
 .Interlude:hover {
-    transform: scale(1.10);
+    transform: scale(1.20);
     background: rgba(66, 48, 171, 0.8);
     text-decoration: none;
 }
