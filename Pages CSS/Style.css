@@ -295,11 +295,3 @@ footer a {
         max-width: 550px;
     }
 }
-
-@media screen and (min-height: 1500px) {
-    .BlocEXP {
-        margin-left: 0px;
-        margin-right: 0px;
-        width: 1400px;
-    }
-}
