@@ -291,7 +291,23 @@ footer a {
 }
 
 @media screen and (max-width: 800px) {
+    nav {
+        font-size: 1em;
+    }
     .BlocEXP {
         max-width: 550px;
+    }
+    footer {
+        gap: 200px;
+        height: 300px;
+    }
+    .Categorie {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-height: 1500px) {
+    .BlocEXP {
+        width: 100%;
     }
 }
