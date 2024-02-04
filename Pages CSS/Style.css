@@ -248,7 +248,8 @@ footer a {
         bottom: 22px
     }
     footer {
-        gap: 200px
+        gap: 200px;
+        height: 180px;
     }
     .Contacts {
     margin-left: 0px;
@@ -283,18 +284,6 @@ footer a {
 @media screen and (max-width: 900px) {
     .BlocEXP {
         max-width: 500px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .BlocEXP {
-        max-width: 450px;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .BlocEXP {
-        max-width: 400px;
     }
 }
 
