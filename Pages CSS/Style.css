@@ -290,9 +290,21 @@ footer a {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
     nav {
         font-size: 1em;
+    }
+    .NavRespA, .NavRespB, .NavRespC {
+        position: relative;
+        bottom: 7px;
+    }
+    .ListeRespA, .ListeRespB, .ListeRespC {
+        position: relative;
+        bottom: 15px;
+    }
+    .ListeRespCP {
+        position: relative;
+        top: 3px
     }
     .BlocEXP {
         max-width: 550px;
@@ -303,6 +315,52 @@ footer a {
     }
     .Categorie {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        height: 65px;
+    }
+    nav {
+        font-size: 0.8em;
+    }
+    .NavRespA, .NavRespB, .NavRespC {
+        position: relative;
+        bottom: 11px
+    }
+    .ListeRespA, .ListeRespB, .ListeRespC {
+        position: relative;
+        bottom: 22px;
+    }
+    .NavRespCP {
+        position: relative;
+        bottom: 5px
+    }
+    .ListeRespCP {
+        position: relative;
+        top: -8px
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .lien_nav {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .lien_nav {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .lien_nav {
+        padding-left: 10.5px;
+        padding-right: 10.5px;
     }
 }
 
