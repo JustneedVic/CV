@@ -232,7 +232,7 @@ footer a {
         bottom: 22px
     }
     .BlocEXP {
-        max-width: 800px;
+        max-width: 900px;
     }
 }
 
@@ -251,11 +251,8 @@ footer a {
         gap: 200px;
         height: 180px;
     }
-    .Contacts {
-        margin-left: 100px;
-    }
     .BlocEXP {
-        max-width: 700px;
+        max-width: 900px;
     }
 }
 
@@ -276,5 +273,25 @@ footer a {
     .TitleFooter {
         width: 120px;
     }
+    .BlocEXP {
+        max-width: 800px;
+    }
 }
 
+@media screen and (max-width: 1000px) {
+    .BlocEXP {
+        max-width: 700px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .BlocEXP {
+        max-width: 650px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .BlocEXP {
+        max-width: 550px;
+    }
+}
