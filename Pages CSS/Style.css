@@ -281,9 +281,3 @@ footer a {
     }
 }
 
-@media screen and (max-width: 900px) {
-    .BlocEXP {
-        max-width: 500px;
-    }
-}
-
