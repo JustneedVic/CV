@@ -15,6 +15,7 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     color: #b9c9c9;
+    padding-top: 0px;
 }
 
 body {
@@ -131,7 +132,8 @@ a:hover {
     width: 1000px;
     text-align: justify;
     margin: auto;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 20px 50px;
     font-size: 1.1em;
     text-shadow: 0.3px 0.3px;
@@ -148,6 +150,32 @@ a:hover {
 
 .BlocEXP strong {
     color: #bac9d1
+}
+
+.AlignementTitres {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.BG {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    flex-grow: 1;
+    flex-basis: 0;
+    overflow: hidden;
 }
 
 .Categorie {
@@ -341,6 +369,15 @@ footer a {
         position: relative;
         top: -8px
     }
+    .BlocEXP {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .BlocEXP {
+        width: 650px;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -348,12 +385,28 @@ footer a {
         padding-left: 25px;
         padding-right: 25px;
     }
+    .BlocEXP {
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .BlocEXP {
+        width: 450px;
+    }
+    .AlignementTitres {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 @media screen and (max-width: 600px) {
     .lien_nav {
         padding-left: 18px;
         padding-right: 18px;
+    }
+    .BlocEXP {
+        width: 380px;
     }
 }
 

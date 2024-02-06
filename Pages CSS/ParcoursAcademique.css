@@ -16,9 +16,8 @@ h3 {
 .TitreSommaire {
     font-size: 3em;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 90px;
     position: relative;
-    top: 30px;
     position: relative;
     z-index: 2;
 }
@@ -28,7 +27,6 @@ h3 {
     justify-content: center;
     gap: 100px;
     position: relative;
-    z-index: 2;
     margin-right: 140px;
     margin-bottom: 100px;
 }
@@ -68,12 +66,6 @@ h3 {
     scroll-margin-top: 140px
 }
 
-.AlignementTitres {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .MegaLogo {
     transition: background-color 150ms;
     border-radius: 10px;
@@ -103,33 +95,6 @@ h3 {
     text-decoration: underline;
 }
 
-.BG {
-    opacity: 0.7;
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-}
-
 .BGSommaire {
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    top: 80px;
-    height: 500px;
+    opacity: 1;
 }
-
-.BGOnogone {
-    top: 580px;
-    height: 970px;
-}
-
-.BGIESEG {
-    top: 1550px;
-    height: 990px;
-}
-
-.BGCPGE {
-    top: 2540px;
-    height: 821.5px;
-}
-

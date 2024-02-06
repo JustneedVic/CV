@@ -64,12 +64,6 @@ h3 {
     scroll-margin-top: 140px
 }
 
-.AlignementTitres {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .MegaLogo {
     transition: background-color 150ms;
     border-radius: 10px;
@@ -106,7 +100,7 @@ h3 {
     flex-direction: row;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .Interlude {
@@ -134,42 +128,60 @@ h3 {
     text-decoration: underline;
 }
 
-.BG {
-    opacity: 0.7;
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-}
-
-.BGeXalt {
-    top: 693px;
-    height: 880px;
-}
-
-.BGParis {
-    top: 1783px;
-    height: 1050px;
-}
-
-.BGSaintCyr {
-    top: 2833px;
-    height: 1005px;
-}
-
-.BGLux {
-    top: 3837px;
-    height: 1028px;
-}
-
 .BGSommaire {
     position: absolute;
-    top: 80px;
-    z-index: 1;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
     width: 100%;
-    height: 625px;
+    height: 100%;
+    object-fit: cover;
 }
 
 .BlockSommaire {
     position: relative;
-    z-index: 2;
+    flex-grow: 1;
+    flex-basis: 0;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 900px) {
+    .Periodes {
+        font-size: 1em;
+        gap: 30px;
+    }
+    .Interlude {
+        width: 600px
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Periodes {
+        font-size: 0.8em;
+        gap: 40px
+    }
+    .Interlude {
+        width: 500px
+    }
+}
+
+@media screen and (max-width: 759px) {
+    .Periodes {
+        gap: 25px
+    }
+    .Interlude {
+        width: 400px
+    }
+}
+
+@media screen and (max-width: 708px) {
+    .Periodes {
+        gap: 7px
+    }
+    .Interlude {
+        width: 300px
+    }
+    .Interlude:hover {
+        transform: scale(1);
+    }
 }
