@@ -14,31 +14,27 @@ h3 {
 }
 
 .TitreSommaire {
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
-    margin-top: 90px;
-    position: relative;
-    position: relative;
-    z-index: 2;
+    margin-top: 60px;
+    margin-bottom: 75px;
 }
 
 .Sommaire {
     display: flex;
     justify-content: center;
-    gap: 100px;
-    position: relative;
-    margin-right: 140px;
+    gap: 150px;
+}
+
+.BlockSommaire {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
     margin-bottom: 100px;
 }
 
-.MiniLogos {
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
+.BS2 {
     gap: 30px;
-    position: relative;
-    left: 130px;
-    top: 7px;
 }
 
 .MiniL {
@@ -47,19 +43,25 @@ h3 {
     border-radius: 50px;
 }
 
-.NomsEntreprises{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.NomsEntreprises {
     font-size: 3em;
+    margin-bottom: 5px;
 }
 
 .Periodes{
-    display: flex;
-    flex-direction: column;
-    gap: px;
     font-size: 1.5em;
-    margin-top: 40px;
+}
+
+.BlockLT {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.BlockG {
+    display: flex;
+    align-items: center;
+    gap: 50px
 }
 
 #Onogone, #IESEG, #MarieCurie {
@@ -97,4 +99,46 @@ h3 {
 
 .BGSommaire {
     opacity: 1;
+}
+
+@media screen and (max-width: 1300px) {
+    .Sommaire {
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Sommaire {
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 938px) {
+    .Sommaire {
+        margin-left: 10px
+    }
+    .BS2 {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .NomsEntreprises {
+        font-size: 2.5em;
+    }
+    .Periodes {
+        font-size: 1em;
+    }
+    .BS2 {
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .NomsEntreprises {
+        font-size: 2em;
+    }
+    .BS2 {
+        gap: 40px;
+    }
 }
