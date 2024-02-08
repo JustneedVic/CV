@@ -13,8 +13,8 @@ h3 {
     text-shadow: 1px 1px black;
 }
 
-.MarginEXP {
-    margin-top: 100px
+.BlocEXP {
+    margin-bottom: 80px;
 }
 
 .MegaLogo {
@@ -171,25 +171,68 @@ h3 {
     margin-bottom: 60px;
 }
 
-.BG {
-    opacity: 0.8;
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-}
-
 .BGVoyage {
     position: absolute;
     top: 2340px;
     height: 3898px
 }
 
-.BGAutres {
-    top: 10px;
-    height: 2340px
-}
-
 #ProfesseurParticulier, #EXPAssociative, #AutresID, #Voyage {
     scroll-margin-top: 120px;
+}
+
+@media screen and (max-width: 1460px) {
+    .LesAutres, .LesAutres2 {
+        flex-direction: column;
+        gap: 50px;
+        margin-left: 150px;
+    }
+    .TX {
+        gap: 150px
+    }
+    .TY {
+        gap: 180px
+    }
+    .TageA {
+        gap: 235px
+    }
+    .TageB {
+        gap: 255px
+    }
+}
+
+@media screen and (max-width: 1073px) {
+    .LesAutres, .LesAutres2 {
+        margin-left: 100px;
+    }
+    .TX {
+        gap: 120px
+    }
+    .TY {
+        gap: 150px
+    }
+    .TageA {
+        gap: 205px
+    }
+    .TageB {
+        gap: 225px
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .LesAutres, .LesAutres2 {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .TX, .TY, .TageA, .TageB {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px
+    }
+    .LesAutres {
+        margin-top: 100px;
+    }
 }
 

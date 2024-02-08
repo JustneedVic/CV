@@ -56,7 +56,7 @@ td, th {
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
-    gap: 80px;
+    gap: 30px;
     position: relative;
     z-index: 2;
     margin-top: 70px;
@@ -65,8 +65,8 @@ td, th {
 
 .DrapeauFond {
     position: relative;
-    flex-grow: 1;
-    flex-basis: 0;
+    width: 380px;
+    height: 190px;
     border-radius: 20px;
     border: solid;
     border-color: rgba(0, 0, 0, 0.4);
@@ -76,7 +76,8 @@ td, th {
 }
 
 .DrapeauFond:has(.EN) {
-    flex-grow: 1.45;
+    width: 500px;
+    height: 190px
 }
 
 .EN, .SP, .JP {
@@ -110,17 +111,18 @@ td, th {
 }
 
 .TitreS {
-    margin-top: 50px;
     margin-left: 50px;
     font-size: 2.5em;
 }
 
 .TitreB {
+    margin-top: 50px;
     color: black;
     text-shadow: 1px 1px #333336;
 }
 
 .TitreLangues {
+    margin-top: 0px;
     position: relative;
     top: 20px;
 }
@@ -267,5 +269,123 @@ td, th {
     }
     100% {
         transform: translateY(0)
+    }
+}
+
+@media screen and (max-width: 1453px) {
+    .DrapeauFond {
+        height: 210px;
+    }
+    .DrapeauFond:has(.EN) {
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 1326px) {
+    .DrapeauFond {
+        height: 230px;
+    }
+    .DrapeauFond:has(.EN) {
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .Animations {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    table {
+        width: 720px;
+        height: 400px;
+    }
+    .SectionLangues {
+        flex-direction: column;
+    }
+    .VraiSectionLangues {
+        height: 800px;
+    }
+    .DrapeauFond {
+        height: 190px;
+    }
+    .DrapeauFond:has(.EN) {
+        height: 190px;
+    }
+    #ParagrapheAnimations {
+        margin-top: 50px;
+        margin-right: 50px;
+    }
+    .AnimBlock {
+        width: 300px;
+        height: 300px;
+    }
+    .Animations {
+        flex-direction: column;
+        align-items: center;
+        gap: 150px
+    }
+    .Bar {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    table {
+        width: 540px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    table {
+        width: 360px;
+        height: 300px;
+    }
+    td, th {
+        padding: 10px;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        width: 180px;
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        margin-right: 11px;
+        box-shadow: 4px 4px 10px;
+    }
+    table:hover {
+        box-shadow: 4px 4px 10px;
+    }
+    td, th {
+        padding: 5px;
+        font-size: 1em;
+    }
+    .SectionLangues {
+        align-items: center;
+    }
+    .DrapeauFond:has(.EN) {
+        width: 380px;
+        height: 230px;
+    }
+    .VraiSectionLangues {
+        height: 830px;
+    }
+    .AnimBlock {
+        width: 150px;
+        height: 150px;
+    }
+    .Animations {
+        gap: 100px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .Bar {
+        height: 150px;
     }
 }

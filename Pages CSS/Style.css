@@ -415,6 +415,10 @@ footer a {
         padding-left: 10.5px;
         padding-right: 10.5px;
     }
+    .ListeDeroulante {
+        width: 65px;
+        font-size: 0.8em;
+    }
 }
 
 @media screen and (min-height: 1500px) {
