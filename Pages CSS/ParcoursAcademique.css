@@ -24,6 +24,7 @@ h3 {
     display: flex;
     justify-content: center;
     gap: 150px;
+    margin-left: 30px
 }
 
 .BlockSommaire {
@@ -104,7 +105,6 @@ h3 {
 @media screen and (max-width: 1300px) {
     .Sommaire {
         gap: 100px;
-        margin-left: 30px
     }
 }
 
